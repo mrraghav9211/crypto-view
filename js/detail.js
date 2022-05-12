@@ -44,7 +44,7 @@ const showChart = function (data) {
   const ctx1 = document.getElementById("myChart1").getContext("2d");
 
   const myChart1 = new Chart(ctx1, {
-    type: "bar",
+    type: "line",
     data: {
       labels: labels,
       datasets: [
